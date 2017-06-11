@@ -1,7 +1,7 @@
 # SUDOKU
 Sudoku is a combinatorial, number placing puzzle.  
 Following C program uses a recursice backtracking algorithm to solve a 9X9 sudoku puzzle.  
-The function "int sudoku(int a[][9], int row, int col)" is recusively called 81 times (for each block in 9X9 grid).  
+The function "int sudoku(int a[][9], int row, int col)" is recursively called. 
 This function will make a call to another fucntion "int fill(int a[][9], int row, int col, int num)" which decides if the parameter "num" can be filled in a[row][column].  
   
   
